@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    background: #4ab;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: midnightblue;
+    font-size: 15px;
+    background-color: crimson;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.menu ul li a:hover{
+    background-color: darkmagenta;
+    color: aquamarine;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about img{
+    width: 100%;
+    margin: 40px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+.about h1{
+    color: darkblue;
+    font-size: 40px;
+    margin: 20px;
+}
+.about h1:hover{
+    background-color: mediumslateblue;
+}
+.about p{
+    color: cornflowerblue;
+    text-align: justify;
+    line-height: 20px;
+    padding: 10px 20px;
+}
+.anni{
+    float: left;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 15px 15px 15px 15px ;
+    height: 850px;
+}
+.anni img{
+    width: 80%;
+    padding: 25px;
+    display: grid;
+    text-align: center;
+    border-radius: 40px;
+}
+.lion-text h2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.lion-text p{
+    text-align: justify;
+    padding: 10px;
+    color: midnightblue;
+    margin-bottom: 35px;
+}
+.tiger-text h2{
+    color: #1086a3;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.tiger-text p{
+    text-align: justify;
+    padding: 10px;
+    color: rgb(214, 125, 169);
+    margin-bottom: 35px;
+}
+.snake-text h2{
+    color: rgba(4, 114, 99, 0.329);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+.snake-text p{
+    text-align: justify;
+    padding: 10px;
+    color: rgb(168, 168, 235);
+    margin-bottom: 20px;
+}
+.snake-text img{
+    width: 70%;
+    padding-right: 30px;
+}
+.mal{
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    margin-left: 90px;
+    color: blueviolet;
+    /*border: 1px solid antiquewhite;*/
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, red, yellow);
+}
+.mal:hover{
+    background-image: linear-gradient(180deg, green, red);
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
